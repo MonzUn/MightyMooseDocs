@@ -9,6 +9,7 @@
 
 
 # **Custom Event Lookups**
+
 | **Name**              | **Alias**       | **Parameters**                                       | **Permissions**    | **Description**                                                                                                                           |
 |-----------------------|-----------------|------------------------------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | ListEventTypes        |                 |                                                      | User               | List all event types and their IDs.                                                                                                       |
@@ -20,13 +21,15 @@
 
 
 # **User Lookups**
+
 | **Name**              | **Alias**       | **Parameters**                                       | **Permissions**    | **Description**                                                                                                                           |
 |-----------------------|-----------------|------------------------------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | User                  |                 | UsernameOrID, Page (1)                               | Admin              | List the latest entries for a user.                                                                                                       |
 | Me                    |                 | Page (1)                                             | User               | List the latest entries for yourself.                                                                                                     |
 
 
-**Location Lookups**
+# **Location Lookups**
+
 | **Name**              | **Alias**       | **Parameters**                                       | **Permissions**    | **Description**                                                                                                                           |
 |-----------------------|-----------------|------------------------------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Location              |                 | X, Y, Z, Radius (5), Page (1)                        | Admin              | List the latest entries for a location.                                                                                                   |
@@ -34,6 +37,7 @@
 
 
 # **Trade Lookups**
+
 | **Name**              | **Alias**       | **Parameters**                                       | **Permissions**    | **Description**                                                                                                                           |
 |-----------------------|-----------------|------------------------------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Trades                |                 | Page (1)                                             | Admin              | List the latest trade entries.                                                                                                            |
@@ -42,6 +46,7 @@
 
 
 # **Currency Lookups**
+
 | **Name**              | **Alias**       | **Parameters**                                       | **Permissions**    | **Description**                                                                                                                           |
 |-----------------------|-----------------|------------------------------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Currency              |                 | Page (1)                                             | Admin              | List the latest currency entries.                                                                                                         |
@@ -51,6 +56,7 @@
 | MyCurrency            |                 | Page (1)                                             | User               | List the latest currency entries for you.                                                                                                 |
 
 # **Property Lookups**
+
 | **Name**              | **Alias**       | **Parameters**                                       | **Permissions**    | **Description**                                                                                                                           |
 |-----------------------|-----------------|------------------------------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Property              |                 | Page (1)                                             | Admin              | List the latest property entries.                                                                                                         |
@@ -60,6 +66,7 @@
 | MyProperties          |                 | Page (1)                                             | User               | List the latest property entries for you.                                                                                                 |
 
 # **Block Lookups**
+
 | **Name**              | **Alias**       | **Parameters**                                       | **Permissions**    | **Description**                                                                                                                           |
 |-----------------------|-----------------|------------------------------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Blocks                |                 | Page (1)                                             | Admin              | List the latest block entries.                                                                                                            |
@@ -69,6 +76,7 @@
 | MyBlocks              |                 | Page (1)                                             | User               | List the latest block entries for you.                                                                                                    |
 
 # **Object Lookups**
+
 | **Name**              | **Alias**       | **Parameters**                                       | **Permissions**    | **Description**                                                                                                                           |
 |-----------------------|-----------------|------------------------------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Objects               |                 | Page (1)                                             | Admin              | List the latest object entries.                                                                                                           |
@@ -78,7 +86,8 @@
 | MyObjects             |                 | Page (1)                                             | User               | List the latest object entries for you.                                                                                                   |
 
 
-**Inventory Lookups**
+# **Inventory Lookups**
+
 | **Name**              | **Alias**       | **Parameters**                                       | **Permissions**    | **Description**                                                                                                                           |
 |-----------------------|-----------------|------------------------------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Inventory             |                 | Page (1)                                             | Admin              | List the latest inventory entries.                                                                                                        |
@@ -88,6 +97,7 @@
 | MyInventory           |                 | Page (1)                                             | User               | List the latest inventory entries for you.                                                                                                |
 
 # **Garbage Lookups**
+
 | **Name**              | **Alias**       | **Parameters**                                       | **Permissions**    | **Description**                                                                                                                           |
 |-----------------------|-----------------|------------------------------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Trash                 |                 | Page (1)                                             | Admin              | List the latest trash entries.                                                                                                            |
@@ -97,6 +107,7 @@
 | MyTrash               |                 | Page (1)                                             | User               | List the latest trash entries for you.                                                                                                    |
 
 # **Tree Lookups**
+
 | **Name**              | **Alias**       | **Parameters**                                       | **Permissions**    | **Description**                                                                                                                           |
 |-----------------------|-----------------|------------------------------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Trees                 |                 | Page (1)                                             | Admin              | List the latest tree entries.                                                                                                             |
@@ -106,6 +117,7 @@
 | MyTrees               |                 | Page (1)                                             | User               | List the latest tree entries for you.                                                                                                     |
 
 # **Plant Lookups**
+
 | **Name**              | **Alias**       | **Parameters**                                       | **Permissions**    | **Description**                                                                                                                           |
 |-----------------------|-----------------|------------------------------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Plants                |                 | Page (1)                                             | Admin              | List the latest plant entries.                                                                                                            |
@@ -115,6 +127,7 @@
 | MyPlants              |                 | Page (1)                                             | User               | List the latest plant entries for you.                                                                                                    |
 
 # **Animal Lookups**
+
 | **Name**              | **Alias**       | **Parameters**                                       | **Permissions**    | **Description**                                                                                                                           |
 |-----------------------|-----------------|------------------------------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Animals               |                 | Page (1)                                             | Admin              | List the latest animal entries.                                                                                                           |
@@ -124,6 +137,7 @@
 | MyAnimals             |                 | Page (1)                                             | User               | List the latest animal entries for you.                                                                                                   |
 
 # **Residency Lookups**
+
 | **Name**              | **Alias**       | **Parameters**                                       | **Permissions**    | **Description**                                                                                                                           |
 |-----------------------|-----------------|------------------------------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Residency             |                 | Page (1)                                             | Admin              | List the latest residency entries.                                                                                                        |
@@ -131,6 +145,7 @@
 | MyResidency           |                 | Page (1)                                             | User               | List the latest residency entries for you.                                                                                                |
 
 # **Election Lookups**
+
 | **Name**              | **Alias**       | **Parameters**                                       | **Permissions**    | **Description**                                                                                                                           |
 |-----------------------|-----------------|------------------------------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Elections             |                 | Page (1)                                             | Admin              | List the latest election entries.                                                                                                         |
@@ -138,6 +153,7 @@
 | MyElections           |                 | Page (1)                                             | User               | List the latest election entries for you.                                                                                                 |
 
 # **Profession Lookups**
+
 | **Name**              | **Alias**       | **Parameters**                                       | **Permissions**    | **Description**                                                                                                                           |
 |-----------------------|-----------------|------------------------------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Professions           |                 | Page (1)                                             | Admin              | List the latest profession entries.                                                                                                       |
@@ -145,6 +161,7 @@
 | MyProfessions         |                 | Page (1)                                             | User               | List the latest profession entries for you.                                                                                               |
 
 # **Character Lookups**
+
 | **Name**              | **Alias**       | **Parameters**                                       | **Permissions**    | **Description**                                                                                                                           |
 |-----------------------|-----------------|------------------------------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Characters            |                 | Page (1)                                             | Admin              | List the latest character entries.                                                                                                        |
@@ -152,6 +169,7 @@
 | MyCharacter           |                 | Page (1)                                             | User               | List the latest character entries for you.                                                                                                |
 
 # **Login/Logout Lookups**
+
 | **Name**              | **Alias**       | **Parameters**                                       | **Permissions**    | **Description**                                                                                                                           |
 |-----------------------|-----------------|------------------------------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | LoginLogouts          |                 | Page (1)                                             | Admin              | List the latest login/logout entries.                                                                                                     |

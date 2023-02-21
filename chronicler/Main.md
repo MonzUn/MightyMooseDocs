@@ -18,6 +18,7 @@ There are two ways to configure Chronicler.
 2.  Copy the `Chronicler.eco.Template` file in `/Configs` and rename it `Chronicler.eco` and change the config parameters in that file.
 
 ## Configuration Parameters
+
 | **Name**                   | **Possible Values**                                      | **Default Value**         | **Description**                                                                                                                            |
 |----------------------------|----------------------------------------------------------|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | RecordEvents               | True/False                                               | True                      | Determines whether or not game events should be recorded.                                                                                  |
@@ -38,7 +39,6 @@ The list of commands is long, but they generally follow a repeating pattern of p
 
 See the table below for an example of these prefixes and their default parameters.
 
-
 | **Prefix**       | **Example**           | **Description**                                                        | **Required Parameters**    | **Default Parameters**          |
 |------------------|-----------------------|------------------------------------------------------------------------|----------------------------|---------------------------------|
 | No Prefix        | Trash                 | Queries all trash related events.                                      | None                       |   Page = 1                      |
@@ -54,8 +54,6 @@ The output window for queries is only able to display 200 entries. In order to g
 A page is simply a set of 200 events and it's always the last parameter for any query command and it defaults to 1, which means that you will always see the most recent events first.
 
 ## **Output Example**
-
-* * *
 
 ![Sample Output of Chron-MyLoc](images/SampleOutput.png "Sample Output of Chron-MyLoc")
 
