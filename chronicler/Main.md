@@ -3,7 +3,7 @@
 *   Records and look up many relevant game actions to enfore server rules, clear up confusion and bust griefers.
 *   Players only have access to their own events wile admins can access everything.
 *   Low performance impact in terms of both CPU and RAM.
-*   Low disk space usage. Around 500 MB for a regular cycle and around 1gb for a high intensity server such as White Tiger.
+*   Low disk space usage. Around 300 MB for a regular cycle and around 1gb for a high intensity server such as White Tiger.
 
 # Installation
 
