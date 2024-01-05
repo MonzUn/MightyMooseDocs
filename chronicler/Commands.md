@@ -4,6 +4,7 @@
 |-----------------------|-----------------|------------------------------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Chronicler            | Chron           |                                                      | User               | Displays a list of all available Chronicler commands. This is the parent command of all other Chronicler command.                         |
 | Status                |                 |                                                      | Admin              | Displays the plugin status display.                                                                                                       |
+| Version 				|                 |                                                      | User               | Displays the installed and latest available plugin version.                                                                               |
 | EnableEventRecording  |                 |                                                      | Admin              | Enables event recording.                                                                                                                  |
 | DisableEventRecording |                 |                                                      | Admin              | Disables event recording.                                                                                                                 |
 
